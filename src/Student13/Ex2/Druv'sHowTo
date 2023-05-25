@@ -1,0 +1,30 @@
+//import React from "react";
+
+//input: none
+//output: render a button and a counter - counter resets after it reaches 10
+//approach : create a react component, rende the button, text and the count.
+//state: counter - tracks the # if times button has been clicked
+//function: a function to handle clicking of button - updates counter (increases by 1)
+// a function to handle resting of counter to 0 (when ccounter reaches 10)
+
+// const ResetCounter = () => {
+//     const [counter, setCounter] = useState(0);
+
+//     const handleClick = () => setCounter(counter += 1);
+//     const handleClick = () => setCounter(0);
+
+//     return(
+//         <div>
+//             <button onClick={() => {
+//                 handleClick();
+//                 if (counter >= 10) handleReset(); // '>=' was used for an instant result. The moment it reaches 10, it instantly goes back to 0 so you don't get to see 10. 
+            
+//         }
+//     }
+            
+//             >Push Me!</button>
+//             Counter: {counter}
+            
+//         </div>
+//     )
+// }
